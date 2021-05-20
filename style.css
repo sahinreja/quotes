@@ -33,24 +33,28 @@ body{
     margin-top: 2rem;
     text-align: left;
 }
-.quote_content q{
+.quote_content p{
     font-weight: bold;
     font-size: 1.2rem;
     opacity: 0.6;
 }
-q {
-    quotes: "“" "”" "‘" "’";
-}
-q::before {
-    content: open-quote;
-    
-    padding:0%;
-    margin: 0%;
-   
-}
-q::after {
-    content: none;
+i{
+    position: absolute;
+    left: 16px;
+    top: 0;
     font-size: 1.5rem;
+    color: cadetblue;
+    padding-right: 5px;
+}
+p{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 0.7;
+}
+p::first-line{
+    margin-left: 45px;
+    text-indent: 45px;
 }
 .author_name{
     color: rgb(30, 142, 247);
