@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(243, 210, 160);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.center_div{
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+}
+.btn-info{
+    color: #000!important;
+    font-weight: bold;
+    border: none!important;
+    outline: none!important;
+}
+.btn-info:hover{
+    background-color: indianred;
+    color: #ffffff!important;
+    box-shadow: none!important;
+}
+.quote_content{
+    margin-top: 2rem;
+    text-align: left;
+}
+.quote_content q{
+    font-weight: bold;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+q {
+    quotes: "“" "”" "‘" "’";
+}
+q::before {
+    content: open-quote;
+    
+    padding:0%;
+    margin: 0%;
+   
+}
+q::after {
+    content: none;
+    font-size: 1.5rem;
+}
+.author_name{
+    color: rgb(30, 142, 247);
+    text-align: right;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.author_name p{
+    position: relative;
+
+}
