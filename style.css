@@ -32,6 +32,8 @@ body{
 .quote_content{
     margin-top: 2rem;
     text-align: left;
+}
+.quote_content{
     position:relative;
 }
 i{
