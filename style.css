@@ -34,11 +34,6 @@ body{
     text-align: left;
     position:relative;
 }
-.quote_content p{
-    font-weight: bold;
-    font-size: 1.2rem;
-    opacity: 0.6;
-}
 i{
     position: absolute;
     left: 16px;
